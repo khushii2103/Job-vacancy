@@ -1,0 +1,197 @@
+/* FONT */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* BODY */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* TOP BAR */
+#topbar{
+    background-color: #333333;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+
+#social-icons{
+    float: right;
+}
+
+.fa-brands{
+    background-color: #ffffff;
+    color: #333333;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+
+.fa-whatsapp{
+    padding: 7px 8px;
+}
+
+/* LOGO BAR */
+#logobar img{
+    width: 200px;
+    margin: 25px 0px;
+}
+
+/* POSTER */
+#poster{
+   background-image: url(photos/jobvacancyphoto.png);
+   height: 650px;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   flex-direction: column;
+}
+
+#poster h1{
+    font-size: 60px;
+    font-family: 'Source Serif Pro', serif
+}
+#poster p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* WHY US */
+
+#why-us h1{
+    font-size: 70px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+/* BRANCH */
+
+#branch h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    overflow: auto;
+}
+#branch img{
+    width: 500px;
+    height: 500px;
+}
+
+.section{
+    width: 50%;
+    float: left;
+    
+}
+
+#branch1 h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    overflow: auto; 
+}
+
+#branch1 img{
+    width: 500px;
+    height: 500px;
+}
+
+#branch2 h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    overflow: auto;
+}
+
+#branch2 img{
+    width: 500px;
+    height: 500px;
+}
+
+
+#why-us ul li{
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+
+/*  FOOTER */
+#footer{
+    background-color: #333333;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.div33 h3{
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footer-menu li{
+    padding-bottom: 10px;
+}
+
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-menu-container{
+    padding-left: 100px ;
+}
+
+#contact-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#contact-menu li{
+    padding-bottom: 10px;
+}
+
+#contact-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* COPYRIGHT */
+#copypath{
+    background-color: rgb(69, 65, 65);
+    color: rgb(160, 155, 155);
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+}

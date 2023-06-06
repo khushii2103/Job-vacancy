@@ -1,0 +1,18 @@
+#jobs h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    overflow: auto;
+}
+#jobs img{
+    width: 500px;
+    height: 500px;
+    padding-left:890px ;
+    
+}
+
+#jobs h1{
+    text-align: center;
+}
+
